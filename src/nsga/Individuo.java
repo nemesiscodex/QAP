@@ -136,7 +136,7 @@ public class Individuo {
         for(int i:cromosoma){
             ret += i + " ";
         }*/
-        String ret = "Fitness = "+fitness+" fnValue1 = "+fnValue[1] +" fnValue2 = "+fnValue[1];
+        String ret = ""+fnValue[0] +";"+fnValue[1];
         
         ret+="\n";
         return ret;

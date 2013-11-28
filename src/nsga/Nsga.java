@@ -20,7 +20,6 @@ public class Nsga {
     private Qap qap;
     private List<Individuo> poblacion;
     private List<Individuo> fParetoOptimo;
-    // long tiempo;
     private final double SIGMA_SHARE = 50000.0;
     private final double EPSILON = 0.1;
     private final double PORCENTAJE_CRUZAMIENTO = 1;
